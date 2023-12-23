@@ -1,0 +1,9 @@
+/* App.css */
+
+/* Adding hover effect to buttons */
+.btn-hover-effect:hover {
+  /* Add your hover effect styles here */
+  /* For example, changing background color and text color on hover */
+  background-color: #007bff;
+  color: white;
+}
