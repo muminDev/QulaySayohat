@@ -8,7 +8,7 @@ const NavBar = () => {
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            QulaySayohat
+            Qulaylik.com
           </a>
           <button
             className="navbar-toggler"
@@ -23,43 +23,30 @@ const NavBar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item ">
-                <a className="nav-link active btn-hover-effect" aria-current="page" href="#">
-                  Home
+              <li className="nav-item nav-item-custom">
+                <a className="nav-link active nav-link-custom" aria-current="page" href="#">
+                  Asosiy
                 </a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link active btn-hover-effect" aria-current="page" href="#">
+              <li className="nav-item nav-item-custom">
+                <a className="nav-link active nav-link-custom" aria-current="page" href="#">
                   Ijara mashinalar
                 </a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link active btn-hover-effect" aria-current="page" href="#">
+              <li className="nav-item nav-item-custom">
+                <a className="nav-link active nav-link-custom" aria-current="page" href="#">
                   Ijara uylar
                 </a>
               </li>
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle btn-hover-effect"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Dropdown
+              <li className="nav-item nav-item-custom">
+                <a className="nav-link active nav-link-custom" aria-current="page" href="#">
+                  Maishiy xizmatlar
                 </a>
-                <ul className="dropdown-menu">
-                  <li>
-                    <a className="dropdown-item btn-hover-effect" href="#">
-                      Action
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item btn-hover-effect" href="#">
-                      Another action
-                    </a>
-                  </li>
-                </ul>
+              </li>
+              <li className="nav-item nav-item-custom">
+                <a className="nav-link active nav-link-custom" aria-current="page" href="#">
+                  Davlat xizmatlari
+                </a>
               </li>
             </ul>
             <form className="d-flex" role="search">

@@ -1,9 +1,6 @@
-/* App.css */
 
-/* Adding hover effect to buttons */
-.btn-hover-effect:hover {
-  /* Add your hover effect styles here */
-  /* For example, changing background color and text color on hover */
-  background-color: #007bff;
+/* Adding hover effect to buttons on the navBar */
+.nav-link-custom:hover {
+  background-color: #9ef49e;
   color: white;
 }
