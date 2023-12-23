@@ -30,22 +30,22 @@ const NavBar = () => {
               </li>
               <li className="nav-item nav-item-custom">
                 <a className="nav-link active nav-link-custom" aria-current="page" href="#">
-                  Ijara mashinalar
-                </a>
-              </li>
-              <li className="nav-item nav-item-custom">
-                <a className="nav-link active nav-link-custom" aria-current="page" href="#">
-                  Ijara uylar
-                </a>
-              </li>
-              <li className="nav-item nav-item-custom">
-                <a className="nav-link active nav-link-custom" aria-current="page" href="#">
                   Maishiy xizmatlar
                 </a>
               </li>
               <li className="nav-item nav-item-custom">
                 <a className="nav-link active nav-link-custom" aria-current="page" href="#">
                   Davlat xizmatlari
+                </a>
+              </li>
+              <li className="nav-item nav-item-custom">
+                <a className="nav-link active nav-link-custom" aria-current="page" href="#">
+                  Ijara mashinalar
+                </a>
+              </li>
+              <li className="nav-item nav-item-custom">
+                <a className="nav-link active nav-link-custom" aria-current="page" href="#">
+                  Ijara uylar
                 </a>
               </li>
             </ul>

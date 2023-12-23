@@ -1,6 +1,6 @@
 
 /* Adding hover effect to buttons on the navBar */
 .nav-link-custom:hover {
-  background-color: #9ef49e;
+  background-color: #a3cfef;
   color: white;
 }
