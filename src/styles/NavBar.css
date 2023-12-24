@@ -1,7 +1,11 @@
+.nav-link-custom {
+  border-radius: 10px;
+}
 
 /* Adding hover effect to buttons on the navBar */
 .nav-link-custom:hover {
-  background-color: #79b3cf;
+  background-color: #bdc7cc;
+ 
 }
 
 .navbar-brand img {

@@ -5,6 +5,7 @@
   height: 400px; /* Set the height */
   margin: auto; /* Center the carousel horizontally */
   overflow: hidden;
+  border-radius: 15px;
 }
 
 

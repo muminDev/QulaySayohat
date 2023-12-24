@@ -1,30 +1,34 @@
-# React + TypeScript + Vite
+#Qulaylik
+Description
+This ReactJS project aims to assist individuals in discovering services and their respective locations in Poland. The application provides a user-friendly interface to navigate through various services offered within different regions of Poland.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Technologies Used
+ReactJS
+Vite
+Bootstrap
 
-Currently, two official plugins are available:
+Getting Started
+Prerequisites
+Make sure you have Node.js installed.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Installation
+Clone the repository:
 
-## Expanding the ESLint configuration
+git clone <https://github.com/muminDev/QulaySayohat.git>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Navigate to the project directory:
+cd project-directory
 
-- Configure the top-level `parserOptions` property like this:
+Install dependencies:
+npm install
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Usage
+Run the development server:
+npm run dev
+Access the application by visiting http://localhost:3000 in your browser.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Project Status
+This project is still under development and may undergo additional changes and enhancements.
+
+Contributing
+Contributions are welcome! Feel free to fork the repository and submit pull requests to suggest improvements or fix issues.
