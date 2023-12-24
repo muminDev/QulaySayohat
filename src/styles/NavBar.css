@@ -4,3 +4,7 @@
   background-color: #79b3cf;
 }
 
+.navbar-brand img {
+  width: auto;
+  height: 40px;
+}

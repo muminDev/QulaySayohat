@@ -2,6 +2,7 @@ import "../styles/NavBar.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import { Outlet, Link } from "react-router-dom";
+import qulaylik from '../images/logo.png'
 
 const NavBar = () => {
   return (
@@ -9,7 +10,7 @@ const NavBar = () => {
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            Qulaylik.com
+            <img src={qulaylik} alt="website log qulaylik.com" />
           </a>
           <button
             className="navbar-toggler"
