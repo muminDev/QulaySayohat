@@ -1,6 +1,7 @@
 import "../styles/NavBar.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import { Outlet, Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -24,27 +25,51 @@ const NavBar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item nav-item-custom">
-                <a className="nav-link active nav-link-custom" aria-current="page" href="#">
-                  Asosiy
-                </a>
+                <Link to="/">
+                  <a
+                    className="nav-link active nav-link-custom"
+                    aria-current="page"
+                    href="#"
+                  >
+                    Asosiy
+                  </a>
+                </Link>
               </li>
               <li className="nav-item nav-item-custom">
-                <a className="nav-link active nav-link-custom" aria-current="page" href="#">
-                  Maishiy xizmatlar
-                </a>
+                <Link to="/Blogs">
+                  <a
+                    className="nav-link active nav-link-custom"
+                    aria-current="page"
+                    href="#"
+                  >
+                    Blogs
+                  </a>
+                </Link>
               </li>
               <li className="nav-item nav-item-custom">
-                <a className="nav-link active nav-link-custom" aria-current="page" href="#">
+                <a
+                  className="nav-link active nav-link-custom"
+                  aria-current="page"
+                  href="#"
+                >
                   Davlat xizmatlari
                 </a>
               </li>
               <li className="nav-item nav-item-custom">
-                <a className="nav-link active nav-link-custom" aria-current="page" href="#">
+                <a
+                  className="nav-link active nav-link-custom"
+                  aria-current="page"
+                  href="#"
+                >
                   Ijara mashinalar
                 </a>
               </li>
               <li className="nav-item nav-item-custom">
-                <a className="nav-link active nav-link-custom" aria-current="page" href="#">
+                <a
+                  className="nav-link active nav-link-custom"
+                  aria-current="page"
+                  href="#"
+                >
                   Ijara uylar
                 </a>
               </li>
@@ -63,6 +88,7 @@ const NavBar = () => {
           </div>
         </div>
       </nav>
+      <Outlet />
     </>
   );
 };
