@@ -1,0 +1,7 @@
+
+/* Custom CSS */
+.custom-carousel {
+  width: 60%; /* Adjust the width percentage as needed */
+  height: auto; /* Set the height */
+  margin: auto; /* Center the carousel horizontally */
+}

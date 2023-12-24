@@ -25,58 +25,40 @@ const NavBar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item nav-item-custom">
-                <Link to="/">
-                  <a
-                    className="nav-link active nav-link-custom"
-                    aria-current="page"
-                    href="#"
-                  >
-                    Asosiy
-                  </a>
+                <Link to="/" className="nav-link active nav-link-custom">
+                  Asosiy
                 </Link>
               </li>
               <li className="nav-item nav-item-custom">
-                <Link to="/MaishiyXizmatlar">
-                  <a
-                    className="nav-link active nav-link-custom"
-                    aria-current="page"
-                    href="#"
-                  >
-                    Maishiy xizmatlar
-                  </a>
+                <Link
+                  to="/MaishiyXizmatlar"
+                  className="nav-link active nav-link-custom"
+                >
+                  Maishiy xizmatlar
                 </Link>
               </li>
               <li className="nav-item nav-item-custom">
-                <Link to="/DavlatXizmatlari">
-                  <a
-                    className="nav-link active nav-link-custom"
-                    aria-current="page"
-                    href="#"
-                  >
-                    Davlat xizmatlari
-                  </a>
+                <Link
+                  to="/DavlatXizmatlari"
+                  className="nav-link active nav-link-custom"
+                >
+                  Davlat xizmatlari
                 </Link>
               </li>
               <li className="nav-item nav-item-custom">
-                <Link to="/IjaraMashinalar">
-                  <a
-                    className="nav-link active nav-link-custom"
-                    aria-current="page"
-                    href="#"
-                  >
-                    Ijara mashinalar
-                  </a>
+                <Link
+                  to="/IjaraMashinalar"
+                  className="nav-link active nav-link-custom"
+                >
+                  Ijara mashinalar
                 </Link>
               </li>
               <li className="nav-item nav-item-custom">
-                <Link to='/IjaraUylar'>
-                  <a
-                    className="nav-link active nav-link-custom"
-                    aria-current="page"
-                    href="#"
-                  >
-                    Ijara uylar
-                  </a>
+                <Link
+                  to="/IjaraUylar"
+                  className="nav-link active nav-link-custom"
+                >
+                  Ijara uylar
                 </Link>
               </li>
             </ul>
