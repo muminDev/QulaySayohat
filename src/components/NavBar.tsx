@@ -10,7 +10,7 @@ const NavBar = () => {
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            <img src={qulaylik} alt="website log qulaylik.com" />
+            <img src={qulaylik} alt="website logo qulaylik.com" />
           </a>
           <button
             className="navbar-toggler"
