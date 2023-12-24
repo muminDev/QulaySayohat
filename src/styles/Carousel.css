@@ -18,13 +18,13 @@
   /* For mobile devices */
   .custom-carousel {
     width: 100%; /* Adjust width for mobile screens */
-    height: 220px;
+    height: 260px;
     overflow: hidden;
   }
 
   .custom-carousel-img {
-    width: 100%; /* Set the width to cover the container */
-    height: 100%; /* Set the height to cover the container */
+    width: 100%;
+    height: 260px;
     object-fit: cover; /* Maintain aspect ratio while covering the container */
   }
 }
