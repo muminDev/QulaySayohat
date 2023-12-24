@@ -1,23 +1,27 @@
 import "../styles/MainPage.css"; // Import your CSS file
-import warsaw from "../images/warsaw.png";
-import dataMain from "../data/data";
 
 const MainPage = () => {
   return (
-    <div className="container">
-      <div className="row">
-        {dataMain.map((item) => (
-          <div key={item.id} className="col-md-3 col-sm-6 mb-3">
-            <div className="card" style={{ width: "100%" }}>
-              <img src={warsaw} className="card-img-top" alt="..." />
-              <div className="card-body">
-                <p className="card-text">{item.name}</p>
-              </div>
-            </div>
-          </div>
-        ))}
+    <>
+      <div className="container d-flex justify-content-center align-items-center vh-100">
+        <h1 className="text-center">
+          Qulaylik.com sayti orqali Polsha davlatidagi o'zingizga kerakli
+          bo'lgan xizmatlar va ularning manzillari topishingiz mumkin.
+        </h1>
       </div>
-    </div>
+      <div className="container d-flex justify-content-center align-items-center vh-100">
+        <h1 className="text-center">
+          Qulaylik.com sayti orqali Polsha davlatidagi o'zingizga kerakli
+          bo'lgan xizmatlar va ularning manzillari topishingiz mumkin.
+        </h1>
+      </div>
+      <div className="container d-flex justify-content-center align-items-center vh-100">
+        <h1 className="text-center">
+          Qulaylik.com sayti orqali Polsha davlatidagi o'zingizga kerakli
+          bo'lgan xizmatlar va ularning manzillari topishingiz mumkin.
+        </h1>
+      </div>
+    </>
   );
 };
 

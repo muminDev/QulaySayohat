@@ -6,7 +6,7 @@ import { Outlet, Link } from "react-router-dom";
 const NavBar = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             Qulaylik.com
@@ -36,42 +36,48 @@ const NavBar = () => {
                 </Link>
               </li>
               <li className="nav-item nav-item-custom">
-                <Link to="/Blogs">
+                <Link to="/MaishiyXizmatlar">
                   <a
                     className="nav-link active nav-link-custom"
                     aria-current="page"
                     href="#"
                   >
-                    Blogs
+                    Maishiy xizmatlar
                   </a>
                 </Link>
               </li>
               <li className="nav-item nav-item-custom">
-                <a
-                  className="nav-link active nav-link-custom"
-                  aria-current="page"
-                  href="#"
-                >
-                  Davlat xizmatlari
-                </a>
+                <Link to="/DavlatXizmatlari">
+                  <a
+                    className="nav-link active nav-link-custom"
+                    aria-current="page"
+                    href="#"
+                  >
+                    Davlat xizmatlari
+                  </a>
+                </Link>
               </li>
               <li className="nav-item nav-item-custom">
-                <a
-                  className="nav-link active nav-link-custom"
-                  aria-current="page"
-                  href="#"
-                >
-                  Ijara mashinalar
-                </a>
+                <Link to="/IjaraMashinalar">
+                  <a
+                    className="nav-link active nav-link-custom"
+                    aria-current="page"
+                    href="#"
+                  >
+                    Ijara mashinalar
+                  </a>
+                </Link>
               </li>
               <li className="nav-item nav-item-custom">
-                <a
-                  className="nav-link active nav-link-custom"
-                  aria-current="page"
-                  href="#"
-                >
-                  Ijara uylar
-                </a>
+                <Link to='/IjaraUylar'>
+                  <a
+                    className="nav-link active nav-link-custom"
+                    aria-current="page"
+                    href="#"
+                  >
+                    Ijara uylar
+                  </a>
+                </Link>
               </li>
             </ul>
             <form className="d-flex" role="search">
