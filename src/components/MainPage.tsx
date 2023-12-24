@@ -1,20 +1,21 @@
 import "../styles/MainPage.css"; // Import your CSS file
+import warsaw from "../images/warsaw.png";
+import dataMain from "../data/data";
 
 const MainPage = () => {
   return (
-    <div className="blur-background">
-      <div className="container-fluid d-flex align-items-center justify-content-center vh-100">
-        <div className="row">
-          <div className="col-md-6 text-center">
-            <div className="text-container">
-              <h1 className="text-on-main">
-                Siz bu sayt orqali Polshadagi o'zingiz uchun kerakli xizmatlarni
-                va ularning manzillarini topishingiz mumkin
-              </h1>
+    <div className="container">
+      <div className="row">
+        {dataMain.map((item) => (
+          <div key={item.id} className="col-md-3 col-sm-6 mb-3">
+            <div className="card" style={{ width: "100%" }}>
+              <img src={warsaw} className="card-img-top" alt="..." />
+              <div className="card-body">
+                <p className="card-text">{item.name}</p>
+              </div>
             </div>
           </div>
-          <div className="col-md-6 text-center">Column 2</div>
-        </div>
+        ))}
       </div>
     </div>
   );
