@@ -1,9 +1,13 @@
 import warsaw from "../images/warsaw.png";
+import warsawBg from "../images/warsawBackground.jpg";
 import "../styles/Carousel.css";
 
 const Carousel = () => {
   return (
-    <div id="carouselExampleCaptions" className="carousel slide custom-carousel">
+    <div
+      id="carouselExampleCaptions"
+      className="carousel slide custom-carousel"
+    >
       <div className="carousel-indicators">
         <button
           type="button"
@@ -28,25 +32,13 @@ const Carousel = () => {
       </div>
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img src={warsaw} className="d-block w-100" alt="..." />
-          <div className="carousel-caption d-none d-md-block">
-            <h4>First slide label</h4>
-            <p>Some representative placeholder content for the first slide.</p>
-          </div>
+          <img src={warsaw} className="custom-carousel-img" alt="..." />
         </div>
         <div className="carousel-item">
-          <img src={warsaw} className="d-block w-100" alt="..." />
-          <div className="carousel-caption d-none d-md-block">
-            <h4>Second slide label</h4>
-            <p>Some representative placeholder content for the second slide.</p>
-          </div>
+          <img src={warsawBg} className="custom-carousel-img" alt="..." />
         </div>
         <div className="carousel-item">
-          <img src={warsaw} className="d-block w-100" alt="..." />
-          <div className="carousel-caption d-none d-md-block">
-            <h4>Third slide label</h4>
-            <p>Some representative placeholder content for the third slide.</p>
-          </div>
+          <img src={warsaw} className="custom-carousel-img" alt="..." />
         </div>
       </div>
       <button

@@ -1,15 +1,30 @@
 
 /* Custom CSS */
 .custom-carousel {
-  width: 60%; /* Adjust the width percentage as needed */
-  height: auto; /* Set the height */
+  width: 800px; /* Adjust the width percentage as needed */
+  height: 400px; /* Set the height */
   margin: auto; /* Center the carousel horizontally */
-  border-radius: 20px;
+  overflow: hidden;
+}
+
+
+.custom-carousel-img {
+  width: 100%; /* Set the width to cover the container */
+  height: 100%; /* Set the height to cover the container */
+  object-fit: cover; /* Maintain aspect ratio while covering the container */
 }
 
 @media (max-width: 767px) {
   /* For mobile devices */
   .custom-carousel {
     width: 100%; /* Adjust width for mobile screens */
+    height: 220px;
+    overflow: hidden;
+  }
+
+  .custom-carousel-img {
+    width: 100%; /* Set the width to cover the container */
+    height: 100%; /* Set the height to cover the container */
+    object-fit: cover; /* Maintain aspect ratio while covering the container */
   }
 }
