@@ -1,5 +1,9 @@
 import warsaw from "../images/warsaw.png";
-import warsawBg from "../images/warsawBackground.jpg";
+import milliy from "../images/milliy.png";
+import davlat from "../images/davlat.png";
+import autoservice from "../images/autoservice.png";
+import ijaraUylar from "../images/ijaraUylar.png";
+import ijaraMashinalar from "../images/ijaraMashinalar.png";
 import "../styles/Carousel.css";
 
 const Carousel = () => {
@@ -29,16 +33,48 @@ const Carousel = () => {
           data-bs-slide-to="2"
           aria-label="Slide 3"
         ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="4"
+          aria-label="Slide 5"
+        ></button>
+
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="5"
+          aria-label="Slide 6"
+        ></button>
       </div>
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img src={warsaw} className="custom-carousel-img" alt="..." />
         </div>
         <div className="carousel-item">
-          <img src={warsawBg} className="custom-carousel-img" alt="..." />
+          <img src={milliy} className="custom-carousel-img" alt="..." />
         </div>
         <div className="carousel-item">
-          <img src={warsaw} className="custom-carousel-img" alt="..." />
+          <img src={davlat} className="custom-carousel-img" alt="..." />
+        </div>
+        <div className="carousel-item">
+          <img src={autoservice} className="custom-carousel-img" alt="..." />
+        </div>
+        <div className="carousel-item">
+          <img
+            src={ijaraMashinalar}
+            className="custom-carousel-img"
+            alt="..."
+          />
+        </div>
+        <div className="carousel-item">
+          <img src={ijaraUylar} className="custom-carousel-img" alt="..." />
         </div>
       </div>
       <button
